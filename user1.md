@@ -12,7 +12,7 @@
         {{ $t('user.addUser') }}
       </el-button>
       <el-button
-        :class="['control-delete button button-small button-border button-rounded', multipleSelection.length ? 'button-blue':'disabled']"
+        :class="['control-delete button button-small button-border button-rounded', multipleSelection.length ? 'button-blue' : 'disabled']"
         type="primary"
         icon="el-icon-delete-solid"
         :disabled="multipleSelection.length === 0"
@@ -436,5 +436,4 @@ export default {
   }
 }
 </script>
-
 ```
